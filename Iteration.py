@@ -14,6 +14,12 @@ if prime % 2 == 0:
 else:
     print("This is a prime number")
 
-
+number=int(input("Enter a number:"))
+if number % 3 == 0:
+    print("Fizz")
+if number % 5 == 0:
+    print("Buzz")
+if number % 15 == 0:
+    print("Fizzbuzz")
 
 

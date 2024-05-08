@@ -5,6 +5,11 @@ if a<0:
 if b<0:
     print("Not a positive integer.Enter a positive integer.")
 for num in range(1, b + 1):
-    print(f"{a} x {num} = {a * num}")
+    multiplier=a * num
+    print(multiplier)
+
+
+
+
 
 

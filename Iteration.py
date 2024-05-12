@@ -16,6 +16,7 @@ elif number > 1:
     for prime in range(2,number):
         if (number % prime) == 0:
          count += 1
+         break
 if count == 1:
     print("This is not a prime.")
 else:

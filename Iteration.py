@@ -8,11 +8,18 @@ for num in range(1, b + 1):
     multiplier=a * num
     print(multiplier)
 
-prime=int(input("Enter a number:"))
-if prime % 2 == 0:
-    print("This is not a prime number")
+count = 0
+number=int(input("Enter a number:"))
+if number == 1:
+    print("This is not a prime.")
+elif number > 1:
+    for prime in range(2,number):
+        if (number % prime) == 0:
+         count += 1
+if count == 1:
+    print("This is not a prime.")
 else:
-    print("This is a prime number")
+    print("This is a prime.")
 
 number=int(input("Enter a number:"))
 if number % 3 == 0:
